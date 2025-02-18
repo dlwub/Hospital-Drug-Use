@@ -2,14 +2,15 @@
 
 ## Overview  
 
-This repository contains a time-series analysis of hospital drug usage data. The project explores different predictive modeling approaches to forecast drug demand, identify seasonal patterns, and analyze key drivers of drug consumption in healthcare facilities.  
+This repository contains a time-series analysis of hospital drug usage data. The project explores different predictive modeling approaches to forecast drug demand, identify seasonal patterns, and cluster groups of drug users.  
 
 ## Objective  
 
 The main goals of this analysis are:  
 - Forecasting hospital drug usage using various time-series models.  
 - Identifying seasonal and trend-based patterns in drug consumption.  
-- Evaluating the performance of statistical, machine learning, and deep learning models.  
+- Evaluating the performance of statistical, machine learning, and deep learning models.
+- Clustering user groups.
 
 ## Data  
 
@@ -31,7 +32,10 @@ We have applied the following models:
 - **XGBoost (Extreme Gradient Boosting)** – A powerful tree-based algorithm for time-series forecasting.  
 
 ### Deep Learning Models  
-- **LSTM (Long Short-Term Memory Networks)** – A recurrent neural network for capturing temporal dependencies.  
+- **LSTM (Long Short-Term Memory Networks)** – A recurrent neural network for capturing temporal dependencies.
+
+## Additional Analysis 
+- **Clustering of Drug Users** (DBSCAN) 
 
 <!-- LICENSE -->
 
